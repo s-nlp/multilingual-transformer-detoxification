@@ -4,6 +4,7 @@ A code for PAN-2024 Multilingual Text Detoxification
 **Elisei Rykov<sup>1</sup>**, **Konstantin Zaytsev<sup>2</sup>**, **Ivan Anisimov<sup>1</sup>**, **Alexandr Voronin<sup>1</sup>**
 
 <sup>1</sup>Skolkovo Institute of Science and Technology, <sup>2</sup>HSE University
+
 {Elisei.Rykov, Ivan.Anisimov, Alexander.Voronin}@skol.tech, kzaytsev@hse.ru
 
 This paper presents a solution for the Multilingual Text Detoxification task in the PAN-2024 competition of the SmurfCat team. Using data augmentation through machine translation and a special filtering procedure, we collected an additional multilingual parallel dataset for text detoxification. Using the obtained data, we fine-tuned several multilingual sequence-to-sequence models, such as mT0 and Aya, on a text detoxification task. We applied the ORPO alignment technique to the final model. Our final model has only 3.7 billion parameters and achieves state-of-the-art results for the Ukrainian language and near state-of-the-art results for other languages. In the competition, our team achieved first place in the automated evaluation with a score of 0.52 and second place in the final human evaluation with a score of 0.74.
