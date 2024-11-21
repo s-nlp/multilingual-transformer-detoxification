@@ -1,5 +1,4 @@
 # SmurfCat at PAN 2024 TextDetox: Alignment of Multilingual Transformers for Text Detoxification
-A code for PAN-2024 Multilingual Text Detoxification
 
 **Elisei Rykov<sup>1</sup>**, **Konstantin Zaytsev<sup>2</sup>**, **Ivan Anisimov<sup>1</sup>**, **Alexandr Voronin<sup>1</sup>**
 
